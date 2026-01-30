@@ -78,3 +78,26 @@ def factorial(number):
     print(frct)
 
 factorial(5)
+
+""" DAY 16 """
+
+def palindrom(string):
+    back_String = ""
+    x = len(string)-1
+    while x >= 0:
+        back_String = back_String + string[x]
+        x-=1
+    
+    if back_String == string:
+        return True
+    else:
+        return False
+    
+print(palindrom("BooB"))
+
+#pytonic way
+def palindrom_2(string):
+    return string.lower() == string[::-1].lower()
+
+print(palindrom_2("Bob"))
+print(palindrom_2("Boby"))
