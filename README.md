@@ -12,8 +12,8 @@ Start der Lektionen -> 29.01.2026
 -[x]-Day 4 Basic Operators an espressions
 -[x]-Day 5 Conditional Statments and Loops
 -[x]-Day 6 Functions and Code Reusability
--[]-Day 7 List and Tuples
--[]-Day 8
+-[X]-Day 7 List and Tuples
+-[X]-Day 8 Sets and Dictionary
 -[]-Day 9
 -[]-Day 10
 -[]-Day 11
