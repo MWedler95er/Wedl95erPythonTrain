@@ -68,3 +68,13 @@ def largest_of_3(number1, number2, number3):
     return largest_nr
 print(largest_of_3(2,15,10))
 
+''' DAY 15 '''
+
+def factorial(number):
+    frct = 1
+    while number > 1:
+        frct *= number
+        number-=1
+    print(frct)
+
+factorial(5)
