@@ -18,3 +18,10 @@ print(x)
 for x in range(10):
     print(x)
 
+''' DAY 11 '''
+#while loop that print only odd numbers from 1 to 20 
+counter = 0
+while counter < 20:
+    if counter%2==0:
+        print(counter)
+    counter+=1
