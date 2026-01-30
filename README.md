@@ -14,14 +14,14 @@ Start der Lektionen -> 29.01.2026
 -[x]-Day 6 Functions and Code Reusability
 -[X]-Day 7 List and Tuples
 -[X]-Day 8 Sets and Dictionary
--[]-Day 9
--[]-Day 10
--[]-Day 11
--[]-Day 12
--[]-Day 13
--[]-Day 14
--[]-Day 15
--[]-Day 16
+-[x]-Day 9  Random number generator
+-[x]-Day 10 for-Loop
+-[x]-Day 11 While-Loop
+-[x]-Day 12 Odd-Even
+-[x]-Day 13 Largest of three numbers
+-[x]-Day 14 Leap Year
+-[x]-Day 15 Factorial
+-[x]-Day 16 Palindrom String
 -[]-Day 17
 -[]-Day 18
 -[]-Day 19
