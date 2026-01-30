@@ -125,3 +125,23 @@ while i < len(testTuples):
     converted_tuple_list.append(testTuples[i]) 
     i+=1
 print(converted_tuple_list)
+
+
+converted_tuple_list.clear() # delete all from the list
+''' Googel for the "Right way" how i convert a Tuple in a List''' 
+
+converted_tuple_list = [ x for x in testTuples] # wow simple 
+print(converted_tuple_list)
+
+
+#testing some stuff 
+converted_tuple_list = ["Two" if x == "2" else x for x in testTuples] # wow simple 
+print(converted_tuple_list)
+
+converted_tuple_list.clear() # delete all from the list
+for x in testTuples:
+    if x == "2":
+        converted_tuple_list.append("Dos")
+    else:
+        converted_tuple_list.append(x)
+print(converted_tuple_list)
