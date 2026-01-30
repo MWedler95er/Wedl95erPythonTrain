@@ -5,3 +5,10 @@ print("Hello, World!")
 this is a multi-line comment
 '''
 
+""" DAY 9 """
+
+# random number
+import random
+
+x = random.randint(1,100)
+print(x)
