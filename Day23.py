@@ -95,3 +95,24 @@ def is_anagram(str1, str2):
     return sorted(str1) == sorted(str2)
 
 print(is_anagram(w1,w2))
+
+
+""" DAY 27"""
+
+sentence2 = "This is a Good sentence for a test!"
+def largest_word(sentence):
+    words = sentence.split()
+    l_word = words[0]
+    for x in words:
+        if len(x) > len(l_word):
+            l_word = x
+    return l_word
+
+print(largest_word(sentence2))
+
+#Pythonic Way
+def largest_word2(sentence):
+    words = sentence.split()
+    return max(words, key=len) if words else ""
+
+print(largest_word2(sentence2))
