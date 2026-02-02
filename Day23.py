@@ -116,3 +116,22 @@ def largest_word2(sentence):
     return max(words, key=len) if words else ""
 
 print(largest_word2(sentence2))
+
+''' DAY 28 '''
+# revers word in a sentence
+
+def rev_sentence(sentence):
+    words = sentence.split()
+    rev_words = []
+    for x in words:
+        rev_words.append(x[::-1])
+    sen = " ".join(rev_words)
+    return sen
+
+print(rev_sentence(sentence2))
+
+#Pythonic Way
+
+def rev_sentence_2(sentence):
+    return " ".join(word[::-1] for word in sentence.split())
+print(rev_sentence_2(sentence2))
