@@ -22,17 +22,17 @@ Start der Lektionen -> 29.01.2026
 -[x]-Day 14 Leap Year
 -[x]-Day 15 Factorial
 -[x]-Day 16 Palindrom String
--[]-Day 17
--[]-Day 18
--[]-Day 19
--[]-Day 21
--[]-Day 22
--[]-Day 23
--[]-Day 24
--[]-Day 25
--[]-Day 26
--[]-Day 27
--[]-Day 28
+-[x]-Day 17 Number of vowels in string
+-[x]-Day 18 List Sum
+-[x]-Day 19 Maximal in List
+-[x]-Day 21 Reverse List
+-[x]-Day 22 List Duplicates
+-[x]-Day 23 List intersection
+-[x]-Day 24 Words it sentence
+-[x]-Day 25 words frequency
+-[x]-Day 26 Anagram string
+-[x]-Day 27 Longest word
+-[x]-Day 28 Reverse words
 -[]-Day 29
 -[]-Day 30
 -[]-Day 31
