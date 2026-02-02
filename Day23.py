@@ -53,7 +53,6 @@ def word_count(sentence):
             count_frequence[x]=1
         else:
             count_frequence[x]+=1
-
     return count_frequence
             
 print(word_count(sentece))
