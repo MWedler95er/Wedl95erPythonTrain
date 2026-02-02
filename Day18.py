@@ -82,3 +82,19 @@ def reverse_the_list(list_objk):
     return list_objk[::-1]
 
 print(reverse_the_list(testlist))
+
+''' DAY 22 '''
+# delete all duplicates from a list
+dup_list = [1,1,3,3,"apple","apple"]
+def duplicate_remover(list_objk):
+    no_dup = set(list_objk)
+    no_dup = list(no_dup)
+    return no_dup
+
+print(duplicate_remover(dup_list))
+
+#pytonic way 
+def remove_dup_py_way(dup_list):
+    return list(dict.fromkeys(dup_list))
+
+print(remove_dup_py_way(dup_list))
