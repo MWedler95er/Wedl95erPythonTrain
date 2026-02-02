@@ -6,33 +6,33 @@ https://www.100daysofcode.io/learn/python
 
 Start der Lektionen -> 29.01.2026
 
--[X]-<Day 1 Hallo, World!  >
--[X]-<Day 2 Varables  >
--[X]-<Day 3 Input and Output > 
--[X]-<Day 4 Basic Operators an espressions  >
--[X]-<Day 5 Conditional Statments and Loops  >
--[X]-<Day 6 Functions and Code Reusability  >
--[X]-<Day 7 List and Tuples  >
--[X]-<Day 8 Sets and Dictionary  >
--[X]-<Day 9  Random number generator  >
--[X]-<Day 10 for-Loop  >
--[X]-<Day 11 While-Loop  >
--[X]-<Day 12 Odd-Even  >
--[X]-<Day 13 Largest of three numbers  >
--[X]-<Day 14 Leap Year  >
--[X]-<Day 15 Factorial  >
--[X]-<Day 16 Palindrom String  >
--[X]-<Day 17 Number of vowels in string  >
--[X]-<Day 18 List Sum  >
--[X]-<Day 19 Maximal in List  >
--[X]-<Day 21 Reverse List  >
--[X]-<Day 22 List Duplicates  >
--[X]-<Day 23 List intersection  >
--[X]-<Day 24 Words it sentence  >
--[X]-<Day 25 words frequency  >
--[X]-<Day 26 Anagram string  >
--[X]-<Day 27 Longest word  >
--[X]-<Day 28 Reverse words  >
+-[X]-<Day 1 Hallo, World!  
+-[X]-<Day 2 Varables  
+-[X]-<Day 3 Input and Output  
+-[X]-<Day 4 Basic Operators an espressions  
+-[X]-<Day 5 Conditional Statments and Loops  
+-[X]-<Day 6 Functions and Code Reusability  
+-[X]-<Day 7 List and Tuples  
+-[X]-<Day 8 Sets and Dictionary  
+-[X]-<Day 9  Random number generator  
+-[X]-<Day 10 for-Loop  
+-[X]-<Day 11 While-Loop  
+-[X]-<Day 12 Odd-Even  
+-[X]-<Day 13 Largest of three numbers  
+-[X]-<Day 14 Leap Year  
+-[X]-<Day 15 Factorial  
+-[X]-<Day 16 Palindrom String  
+-[X]-<Day 17 Number of vowels in string  
+-[X]-<Day 18 List Sum  
+-[X]-<Day 19 Maximal in List  
+-[X]-<Day 21 Reverse List  
+-[X]-<Day 22 List Duplicates  
+-[X]-<Day 23 List intersection  
+-[X]-<Day 24 Words it sentence  
+-[X]-<Day 25 words frequency  
+-[X]-<Day 26 Anagram string  
+-[X]-<Day 27 Longest word  
+-[X]-<Day 28 Reverse words  
 -[]-Day 29
 -[]-Day 30
 -[]-Day 31
