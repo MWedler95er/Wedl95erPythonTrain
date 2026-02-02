@@ -40,16 +40,30 @@ def sentence_maker(list_w):
     return f"{sentence.capitalize()}."  # .capitalize => fist letter Big!! 
 
 """ DAY 25 """
-sentece = "That is a test String, an it is a bad String"
-def word_conter(sentence):
+sentece = "That is a test String and it is a bad String and so that is a bad String"
+
+# keine rücksichtname auf Lower
+def word_count(sentence):
     splitet = sentence.split()
     count_frequence = {}
+    for word in splitet:
+        count_frequence[word]=None
     for x in splitet:
-        if count_frequence.keys() == x:
-            count_frequence[x]=count_frequence.get(x) +1 
-        else:
+        if count_frequence.get(x) == None:
             count_frequence[x]=1
+        else:
+            count_frequence[x]+=1
+
     return count_frequence
             
+print(word_count(sentece))
 
-print(word_conter(sentece))
+# Pytonic Way 
+from collections import Counter
+import re
+
+def count_word_frequence(sentence):
+    words = re.findall(r'\w+',sentece.lower())
+    return Counter(words)
+
+print(count_word_frequence(sentece))
