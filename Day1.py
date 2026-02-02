@@ -44,7 +44,7 @@ print(odd_or_even_sec(3))
 
 #pythonic way
 def odd_or_even_sec(number):
-    return "even" if numer % 2 == 0 else "odd"
+    return "even" if number % 2 == 0 else "odd"
 
 #pythonic way 2
 def odd_or_even_sec(number):
