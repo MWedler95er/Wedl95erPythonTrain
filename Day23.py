@@ -66,3 +66,32 @@ def count_word_frequence(sentence):
     return Counter(words)
 
 print(count_word_frequence(sentece))
+
+
+''' DAY 26 '''
+#Write a function check if two strings are anagrams.
+w1 = "sei dena"
+w2 = "die nase"
+def anagram(word1,word2):
+    w1 = []
+    w2 = []
+    for x in word1:
+        w1.append(x)
+    for x in word2:
+        w2.append(x)
+    w1 = set(w1)
+    w2 = set(w2)
+    pruf = w1.intersection(w2)
+    if len(pruf) == len(w1) == len(w2):
+        return True
+    else: 
+        return False
+    
+print(anagram(w1,w2))
+
+#pytonisc way
+
+def is_anagram(str1, str2):
+    return sorted(str1) == sorted(str2)
+
+print(is_anagram(w1,w2))
