@@ -101,3 +101,28 @@ def palindrom_2(string):
 
 print(palindrom_2("Bob"))
 print(palindrom_2("Boby"))
+
+
+''' DAY 17 '''
+
+# count the nuber of vowels in a String
+
+def vowels_counter(text):
+    counter = 0
+    vowels = "a","e","i","o","u"
+    for letters in text:
+        if letters.lower() in vowels:
+            counter+=1
+    return counter
+
+# Pythonic Way
+def vowels_count(text):
+    vowels = "aeiou"
+    return sum( char in vowels for char in text.lower() )
+
+
+print(vowels_counter("It's very cold outside"))
+print(vowels_count("It's very cold outside"))
+
+
+
