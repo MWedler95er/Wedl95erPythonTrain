@@ -90,7 +90,7 @@ def duplicate_remover(list_objk):
     no_dup = set(list_objk)
     no_dup = list(no_dup)
     return no_dup
-
+# schlechter weg!! ordnung der liste doch set nicht mehr gegeben!!! 
 print(duplicate_remover(dup_list))
 
 #pytonic way 
