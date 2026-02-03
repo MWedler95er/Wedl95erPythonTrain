@@ -9,6 +9,7 @@ def read_text(txt):
     with open(txt,"r") as f:
         for x in f:
             print(x)
+    return "DONE"
     
 read_text("README.md")
 
@@ -17,7 +18,8 @@ read_text("README.md")
 def read_text_2(txt_name):
     with open(txt_name,"r",encoding="utf-8") as bare_text:
         for line in bare_text:
-            print(line.strip())
+            print(line.strip()) #.strip() delete all empty lines between outcome_lines
+    return "DONE"
 
 print("________________________________________")
 read_text_2("README.md")
