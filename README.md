@@ -33,12 +33,12 @@ Start der Lektionen -> 29.01.2026
 -[X]-<Day 26 Anagram string  
 -[X]-<Day 27 Longest word  
 -[X]-<Day 28 Reverse words  
--[X]-<Day 29 Words frequency
--[X]-<Day 30 Sort a list
--[X]-<Day 31 Merge dictionaries
--[X]-<Day 32 File operations: Read
--[X]-<Day 33 File operations: Write
--[X]-<Day 34 File operations: Append
+-[X]-<Day 29 Words frequency  
+-[X]-<Day 30 Sort a list  
+-[X]-<Day 31 Merge dictionaries  
+-[X]-<Day 32 File operations: Read  
+-[X]-<Day 33 File operations: Write  
+-[X]-<Day 34 File operations: Append  
 -[]-<Day 35
 -[]-<Day 36
 -[]-<Day 37
