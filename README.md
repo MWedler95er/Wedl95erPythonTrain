@@ -38,7 +38,7 @@ Start der Lektionen -> 29.01.2026
 -[X]-<Day 31 Merge dictionaries
 -[X]-<Day 32 File operations: Read
 -[X]-<Day 33 File operations: Write
--[]-<Day 34
+-[X]-<Day 34 File operations: Append
 -[]-<Day 35
 -[]-<Day 36
 -[]-<Day 37
