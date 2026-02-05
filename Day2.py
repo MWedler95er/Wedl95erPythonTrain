@@ -1,5 +1,4 @@
-
-""" Day2 create variables and print
+"""Day2 create variables and print
 
 I declered different variables with different data types and printed them out.
 
@@ -25,4 +24,3 @@ print("Hobbies:")
 print("- " + hobby[0])
 print("- " + hobby[1])
 print("- " + hobby[2])
-
