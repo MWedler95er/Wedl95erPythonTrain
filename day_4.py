@@ -1,4 +1,4 @@
-class Day4:
+class day_4:
     """
     Create simple Arithmetic/-, Relational-Operators
 
@@ -29,25 +29,25 @@ class Day4:
         # Relational -Operators
 
     def equal(self, a, b):
-        return True if a == b else False
+        return a == b 
 
     def not_equal(self, a, b):
-        return True if a != b else False
+        return a != b   
 
     def greater_than(self, a, b):
-        return True if a > b else False
+        return a > b
 
     def lesser_than(self, a, b):
-        return True if a < b else False
+        return a < b
 
     def greater_equal_than(self, a, b):
-        return True if a >= b else False
+        return a >= b
 
     def lesser_equal_than(self, a, b):
-        return True if a <= b else False
+        return a <= b
 
 
-show = Day4()
+show = day_4()
 
 print(" Addition 2 and 5")
 print(show.addition(2, 5), "\n")
@@ -71,7 +71,7 @@ print(show.equal(2, 20), "\n")
 
 print("is 2 and 2 equal")
 print(show.not_equal(2, 2))
-print("is 2 and 2 equal")
+print("is 2 and 20 equal")
 print(show.not_equal(2, 20), "\n")
 
 print("is 2 grather than 10")

@@ -12,7 +12,7 @@ def append_to_text_file(text_file_name, text_to_append):
     return "DONE"
 
 
-file_name = "testText.txt"
-text_input = "A new line, A new line!\n"
+FILE_NAME = "testText.txt"
+TEXT_INPUT = "A new line, A new line!\n"
 
-append_to_text_file(file_name, text_input)
+append_to_text_file(FILE_NAME, TEXT_INPUT)

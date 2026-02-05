@@ -8,7 +8,7 @@
 
 def open_file(file_root):
     try:
-        with open(file_root, "r") as f:
+        with open(file_root, "r", encoding="utf-8") as f:
             return f
     except FileNotFoundError:
         return "ERORR: File not found."

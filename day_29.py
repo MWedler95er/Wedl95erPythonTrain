@@ -1,3 +1,4 @@
+from collections import Counter
 """
 
     DAY 29
@@ -6,7 +7,6 @@
 
 """
 
-from collections import Counter
 
 
 def dict_word_frequency(dict_of_words):
@@ -29,7 +29,7 @@ print(dict_word_frequency(test_dict))
 # from collections import Counter
 
 
-def dict_word_frequency(dict_of_words):
+def dict_word_frequency2(dict_of_words):
     return Counter(
         word for value in dict_of_words.values() for word in value.lower().split()
     )

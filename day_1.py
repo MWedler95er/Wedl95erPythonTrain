@@ -3,23 +3,21 @@ import random
 print("Hello, World!")
 
 # One-liner comment
-"""
-this is a multi-line comment
-"""
+''' this is a multi-line comment '''
 
-""" DAY 9 """
+''' DAY 9 '''
 
 # random number
 
 x = random.randint(1, 100)
 print(x)
 
-""" DAY 10 """
+''' DAY 10 '''
 # loop
 for x in range(10):
     print(x)
 
-""" DAY 11 """
+''' DAY 11 '''
 # while loop that print only odd numbers from 1 to 20
 counter = 0
 while counter < 20:
@@ -27,7 +25,7 @@ while counter < 20:
         print(counter)
     counter += 1
 
-""" DAY 12 """
+''' DAY 12 '''
 
 
 def odd_or_even(number):
@@ -52,16 +50,16 @@ print(odd_or_even_sec(3))
 
 
 # pythonic way
-def odd_or_even_sec(number):
+def odd_or_even_sec_1(number):
     return "even" if number % 2 == 0 else "odd"
 
 
 # pythonic way 2
-def odd_or_even_sec(number):
+def odd_or_even_sec_2(number):
     return ("Even", "Odd")[number % 2]
 
 
-""" DAY 13 """
+''' DAY 13 '''
 
 
 def biggest_number_of_three(number1, number2, number3):
@@ -86,7 +84,7 @@ def largest_of_3(number1, number2, number3):
 
 print(largest_of_3(2, 15, 10))
 
-""" DAY 15 """
+''' DAY 15 '''
 
 
 def factorial(number):
@@ -99,7 +97,7 @@ def factorial(number):
 
 factorial(5)
 
-""" DAY 16 """
+''' DAY 16 '''
 
 
 def palindrom(string):
@@ -127,7 +125,7 @@ print(palindrom_2("Bob"))
 print(palindrom_2("Boby"))
 
 
-""" DAY 17 """
+''' DAY 17 ''' 
 
 # count the nuber of vowels in a String
 
