@@ -26,3 +26,5 @@ def calc_summ_from_txt_pw(file_name):
     return sum(numbers)
 
 print(calc_summ_from_txt_pw(file_n))
+
+ 
