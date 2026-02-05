@@ -1,0 +1,64 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+      - id: pretty-format-json
+        args:
+          - "--autofix"
+          - "--indent=4"
+          - "--no-sort-keys"
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.15.0
+    hooks:
+      # Run the linter.
+      - id: ruff
+        args: [--fix]
+      # Run the formatter.
+      - id: ruff-format
+      - id: ruff
+        args: ["check", "--select", "I", "--fix"]
+  - repo: local
+    hooks:
+      - id: pylint
+        name: pylint
+        entry: poetry run pylint
+        language: system
+        types: [python]
+        args: [
+            "-rn", # Only display messages
+            "-sn", # Don't display the score
+          ]
+      - id: jira-branch-check
+        name: JIRA Branch + Conventional Commits Check
+        entry: bash
+        language: system
+        stages: [commit-msg]
+        always_run: true
+        pass_filenames: false
+        args:
+          - -c
+          - |
+            BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "")
+            if ! echo "$BRANCH" | grep -qE "^(DEV|BW|KIFP|BRWEB|DP|SDE)-[0-9]+|(main|master|develop|docs/)"; then
+              echo ""
+              echo "❌ Branch missing JIRA ticket reference"
+              echo "   Current: $BRANCH"
+              echo "   Expected: <PROJECT>-<NUMBER>-description"
+              echo "   Allowed: DEV, BW, KIFP, BRWEB, DP, SDE"
+              exit 1
+            fi
+            COMMIT_MSG=$(cat "$1" 2>/dev/null || echo "")
+            if [ -n "$COMMIT_MSG" ] && ! echo "$COMMIT_MSG" | grep -qE "^(feat|fix|docs|style|refactor|test|chore|perf|ci|build|revert)(\(.+\))?:"; then
+              echo ""
+              echo "ℹ️  Recommended: Use Conventional Commits (feat:, fix:, docs:, etc.)"
+              echo ""
+            fi
+          - --
+ 
