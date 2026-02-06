@@ -15,21 +15,20 @@ class Warteschlange:
     def ist_leer(self) -> bool:
         return len(self.queue) == 0
 
-    def wer_ist_als_nächstes_dran(self) -> str:
+    def wer_ist_als_neachstes_dran(self) -> str:
         if not self.ist_leer():
             return self.queue[0]
-        else:
-            return "Die Warteschlange ist leer."
+        return "Die Warteschlange ist leer."
 
 
 warteschlange = Warteschlange("Supermarkt")
 warteschlange.anstellen("Person XYZ")
 warteschlange.anstellen("Person 123")
 warteschlange.anstellen("Person 0815")
-print(warteschlange.wer_ist_als_nächstes_dran())
+print(warteschlange.wer_ist_als_neachstes_dran())
 warteschlange.bedienung()
-print(warteschlange.wer_ist_als_nächstes_dran())
+print(warteschlange.wer_ist_als_neachstes_dran())
 warteschlange.bedienung()
-print(warteschlange.wer_ist_als_nächstes_dran())
+print(warteschlange.wer_ist_als_neachstes_dran())
 warteschlange.bedienung()
-print(warteschlange.wer_ist_als_nächstes_dran())
+print(warteschlange.wer_ist_als_neachstes_dran())
