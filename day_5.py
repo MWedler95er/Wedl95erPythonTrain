@@ -16,10 +16,10 @@ class Day5:
             print("Child")
 
     def addition_largest_numbers(self, a, b, c):
-        if a > b and b > c:
+        if a >= b >= c:
             print(a, " and ", b, " are the two largest numbers ")
-        elif b > a and c > a:
-            print(b, " and ", c, " are the two largest numbers ")
+        elif b >= a >= c:
+            print(b, " and ", a, " are the two largest numbers ")
         else:
             print(a, " and ", c, " are the two largest numbers ")
 

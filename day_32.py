@@ -7,7 +7,7 @@
 
 
 def read_text(txt):
-    with open(txt, "r") as f:
+    with open(txt, "r", encoding="utf-8") as f:
         for x in f:
             print(x)
     return "DONE"

@@ -1,71 +1,71 @@
 import re
 from collections import Counter
 
-"""DAY 23"""
+# DAY 23
 # write a funciton to find the intersection of two lists.
 
-list_objk1 = [1, 2, 3, 4, 5]
-list_objk2 = [10, 2, 3, 4, 5]
+LIST_OBJK1 = [1, 2, 3, 4, 5]
+LIST_OBJK2 = [10, 2, 3, 4, 5]
 
 
-def interselection_objk(list_objk1, list_objk2):
-    objk1 = set(list_objk1)
-    objk2 = set(list_objk2)
+def interselection_objk(list1, list2):
+    objk1 = set(list1)
+    objk2 = set(list2)
     return objk1.intersection(objk2)  #!! unsauber gibt set zurück kein list
 
 
-print(interselection_objk(list_objk1, list_objk2))
+print(interselection_objk(LIST_OBJK1, LIST_OBJK2))
 
 
-def interselection_objk2(list_objk1, list_objk2):
-    objk1, objk2 = set(list_objk1), set(list_objk2)
+def interselection_objk2(list1, list2):
+    objk1, objk2 = set(list1), set(list2)
     return list(objk1.intersection(objk2))
 
 
-print(interselection_objk2(list_objk1, list_objk2))
+print(interselection_objk2(LIST_OBJK1, LIST_OBJK2))
 
 # pytoic way
 
 
-def interselection_objk_py_way(list_objk1, list_objk2):
-    return list(set(list_objk1) & set(list_objk2))
+def interselection_objk_py_way(list1, list2):
+    return list(set(list1) & set(list2))
 
 
-print(interselection_objk_py_way(list_objk1, list_objk2))
+print(interselection_objk_py_way(LIST_OBJK1, LIST_OBJK2))
 
-""" DAY 24 """
+# DAY 24
 # write a funcion to convert a list of words into a sentence
-list_w = ["Hallo", "ich", "mag", "python"]
+LIST_W = ["Hallo", "ich", "mag", "python"]
 
 
-def sentence_maker(list_w):
-    sentence = ""
-    for x in list_w:
-        sentence += x + " "
-    return sentence
+def sentence_maker(words):
+    result = ""
+    for x in words:
+        result += x + " "
+    return result
 
 
-print(sentence_maker(list_w))
+print(sentence_maker(LIST_W))
 
 
 # pytonic way
-def sentence_maker2(list_w):
-    sentence = " ".join(
-        list_w
+def sentence_maker2(words):
+    result = " ".join(
+        words
     )  # join -> only for list with strings in it -> return a new String
-    return f"{sentence.capitalize()}."  # .capitalize => fist letter Big!!
+    return f"{result.capitalize()}."  # .capitalize => fist letter Big!!
 
 
-""" DAY 25 """
-sentence = "That is a test String and it is a bad String and so that is a bad String"
+# DAY 25
+SENTENCE = "That is a test String and it is a bad String and so that is a bad String"
 
 
 # keine rücksichtname auf Lower
-def word_count(sentence):
-    splitet = sentence.split()
+def word_count(text):
+    splitet = text.split()
     count_frequence = {}
     for word in splitet:
-        count_frequence[word] is None
+        count_frequence[word] = None
     for x in splitet:
         if count_frequence.get(x) is None:
             count_frequence[x] = 1
@@ -74,23 +74,22 @@ def word_count(sentence):
     return count_frequence
 
 
-print(word_count(sentence))
+print(word_count(SENTENCE))
 
 # Pytonic Way
 
 
-def count_word_frequence(sentence):
-    words = re.findall(r"\w+", sentence.lower())
+def count_word_frequence(text):
+    words = re.findall(r"\w+", text.lower())
     return Counter(words)
 
 
-print(count_word_frequence(sentence))
+print(count_word_frequence(SENTENCE))
 
-
-""" DAY 26 """
+# DAAY 26
 # Write a function check if two strings are anagrams.
-w1 = "sei dena"
-w2 = "die nase"
+W_1 = "sei dena"
+W_2 = "die nase"
 
 
 def anagram(word1, word2):
@@ -105,11 +104,10 @@ def anagram(word1, word2):
     pruf = w1.intersection(w2)
     if len(pruf) == len(w1) == len(w2):
         return True
-    else:
-        return False
+    return False
 
 
-print(anagram(w1, w2))
+print(anagram(W_1, W_2))
 
 # pytonisc way
 
@@ -118,12 +116,13 @@ def is_anagram(str1, str2):
     return sorted(str1) == sorted(str2)
 
 
-print(is_anagram(w1, w2))
+print(is_anagram(W_1, W_2))
 
 
-""" DAY 27"""
+# DAY 27
+# Write a function to find the largest word in a sentence.
 
-sentence2 = "This is a Good sentence for a test!"
+SENTENCE_2 = "This is a Good sentence for a test!"
 
 
 def largest_word(sentence):
@@ -135,7 +134,7 @@ def largest_word(sentence):
     return l_word
 
 
-print(largest_word(sentence2))
+print(largest_word(SENTENCE_2))
 
 
 # Pythonic Way
@@ -144,9 +143,9 @@ def largest_word2(sentence):
     return max(words, key=len) if words else ""
 
 
-print(largest_word2(sentence2))
+print(largest_word2(SENTENCE_2))
 
-""" DAY 28 """
+# DAY 28
 # revers word in a sentence
 
 
@@ -159,7 +158,7 @@ def rev_sentence(sentence):
     return sen
 
 
-print(rev_sentence(sentence2))
+print(rev_sentence(SENTENCE_2))
 
 # Pythonic Way
 
@@ -168,4 +167,4 @@ def rev_sentence_2(sentence):
     return " ".join(word[::-1] for word in sentence.split())
 
 
-print(rev_sentence_2(sentence2))
+print(rev_sentence_2(SENTENCE_2))

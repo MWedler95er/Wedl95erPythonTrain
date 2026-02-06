@@ -17,7 +17,7 @@ def calculation_rectangle(length, breadth):
 calculation_rectangle(10, 2)
 
 
-coder_name = "MiKZ"
+CODER_NAME = "MiKZ"
 
 
 def name_the_coder(coder_name="Michael"):
@@ -25,14 +25,9 @@ def name_the_coder(coder_name="Michael"):
 
 
 name_the_coder()
-print(coder_name)
+print(CODER_NAME)
 
 
-def rename_the_coder():
-    global coder_name
-    coder_name = "michi"
-    print(coder_name)
-
-
-rename_the_coder()
-print(coder_name)
+# def rename_the_coder():
+#    CODER_NAME = "michi"
+#    print(CODER_NAME)

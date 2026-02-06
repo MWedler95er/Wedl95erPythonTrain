@@ -14,6 +14,6 @@ def open_file(file_root):
         return "ERORR: File not found."
 
 
-file = "testText_fehler.txt"
+FILE = "testText_fehler.txt"
 
-print(open_file(file))
+print(open_file(FILE))

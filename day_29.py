@@ -1,12 +1,6 @@
 from collections import Counter
-"""
 
-    DAY 29
-
-#Create a dictinary of words an thir frequencies.
-
-"""
-
+# DAY 29
 
 
 def dict_word_frequency(dict_of_words):

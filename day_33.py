@@ -11,6 +11,6 @@ def write_txt(txt_file_name, text_file_input):
     return "DONE"
 
 
-text = "Test text - Day 33 "
+TEXT = "Test text - Day 33 "
 
-write_txt("testText.txt", text)
+write_txt("testText.txt", TEXT)

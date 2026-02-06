@@ -1,4 +1,4 @@
-"""DAY 18"""
+# DAY 18
 
 
 # Write a function to find the sum of all elements in a list.
@@ -10,7 +10,7 @@ testlist = [1, 3, 5, 8, 13]
 print(list_sum(testlist))
 
 
-""" DAY 19 """
+# DAY 19
 # Write a function to find the maximum element in a list.
 
 
@@ -48,32 +48,30 @@ for x in fibonacci_generator(235):
     print(x)
 
 # oneliner
-"""from functools import reduce
-fib = lambda m: (a:=0, b:=1, [a := (tmp:=a, a:=b, b:=tmp+b)[0] for _ in range(m) if a <= m])[-1]
+# from functools import reduce
+# fib = lambda m: (a:=0, b:=1, [a := (tmp:=a, a:=b, b:=tmp+b)[0] for _ in range(m) if a <= m])[-1]
+#
+#
+# (a:=0, b:=1, ...): Wir initialisieren a und b direkt im Tuple.
+#
+# tmp:=a, a:=b, b:=tmp+b: Das ist der Walrus-Trick, um das Tuple-Unpacking in einer List Comprehension zu simulieren.
+#
+# if a <= m: Hier wird das Ende bei 174 (oder deinem Wert m) erzwungen.
+#
+# [-1]: Am Ende nehmen wir das letzte Element des äußeren Tuples (unsere generierte Liste).
+#
+# print(fib(174))
 
 
-(a:=0, b:=1, ...): Wir initialisieren a und b direkt im Tuple.
-
-tmp:=a, a:=b, b:=tmp+b: Das ist der Walrus-Trick, um das Tuple-Unpacking in einer List Comprehension zu simulieren.
-
-if a <= m: Hier wird das Ende bei 174 (oder deinem Wert m) erzwungen.
-
-[-1]: Am Ende nehmen wir das letzte Element des äußeren Tuples (unsere generierte Liste).
-
-print(fib(174))
-"""
-
-
-""" DAY 21 """
+# DAY 21
 # reverse a list
 
 
 def reverse_a_list(list_objk):
     rev_list = list(list_objk)
-    rev_counter = 4
-    for x in list_objk:
-        print(x)
-        rev_list[rev_counter] = x
+    rev_counter = len(list_objk) - 1
+    for l_objk in list_objk:
+        rev_list[rev_counter] = l_objk
         rev_counter -= 1
     return rev_list
 
@@ -81,8 +79,9 @@ def reverse_a_list(list_objk):
 def reverse_a_list_wrong(list_objk):
     rev_list = list_objk  # bildet eine reverence auf die liste keine Kopie
     rev_counter = len(list_objk) - 1
-    for x in list_objk:
-        rev_list[rev_counter] = x
+    for singel_objk in list_objk:
+        rev_list[rev_counter] = singel_objk
+        rev_counter -= 1
     return rev_list
 
 
@@ -97,9 +96,9 @@ def reverse_the_list(list_objk):
 
 print(reverse_the_list(testlist))
 
-""" DAY 22 """
+# DAY 22
 # delete all duplicates from a list
-dup_list = [1, 1, 3, 3, "apple", "apple"]
+DUP_LIST = [1, 1, 3, 3, "apple", "apple"]
 
 
 def duplicate_remover(list_objk):
@@ -109,7 +108,7 @@ def duplicate_remover(list_objk):
 
 
 # schlechter weg!! ordnung der liste doch set nicht mehr gegeben!!!
-print(duplicate_remover(dup_list))
+print(duplicate_remover(DUP_LIST))
 
 
 # pytonic way
@@ -117,4 +116,4 @@ def remove_dup_py_way(dup_list):
     return list(dict.fromkeys(dup_list))
 
 
-print(remove_dup_py_way(dup_list))
+print(remove_dup_py_way(DUP_LIST))

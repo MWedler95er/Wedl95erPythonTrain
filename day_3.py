@@ -2,22 +2,22 @@
 Created different data types and initialized variables with inputs.
 """
 
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-age = float(input("Enter your age: "))
-plz = int(input("Enter your postal code: "))
-adress = str(input("Enter your address: "))
-smoking_input = input("Do you smoke? (yes/no): ").strip().lower()
-smoking = True if smoking_input == "yes" else False
-driver_license_input = (
+FIRST_NAME = input("Enter your first name: ")
+LAST_NAME = input("Enter your last name: ")
+AGE = float(input("Enter your age: "))
+PLZ = int(input("Enter your postal code: "))
+ADRESSE = str(input("Enter your address: "))
+SMOKING_INPUT = input("Do you smoke? (yes/no): ").strip().lower()
+SMOKING = SMOKING_INPUT == "yes"
+DRIVER_LICENSE_INPUT = (
     input("Do you have a driver's license? (yes/no): ").strip().lower()
 )
-driver_license = True if driver_license_input == "yes" else None
+DRIVER_LICENSE = DRIVER_LICENSE_INPUT == "yes"
 
-print("First Name:", first_name)
-print("Last Name:", last_name)
-print("Age:", age)
-print("Postal Code:", plz)
-print("Address:", adress)
-print("Smoking:", smoking)
-print("Driver's License:", driver_license)
+print("First Name:", FIRST_NAME)
+print("Last Name:", LAST_NAME)
+print("Age:", AGE)
+print("Postal Code:", PLZ)
+print("Address:", ADRESSE)
+print("Smoking:", SMOKING)
+print("Driver's License:", DRIVER_LICENSE)

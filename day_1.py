@@ -3,29 +3,27 @@ import random
 print("Hello, World!")
 
 # One-liner comment
-''' this is a multi-line comment '''
 
-''' DAY 9 '''
+# DAY 2
 
 # random number
 
 x = random.randint(1, 100)
 print(x)
-
-''' DAY 10 '''
+# DAY 10
 # loop
 for x in range(10):
     print(x)
 
-''' DAY 11 '''
+# DAY 11
 # while loop that print only odd numbers from 1 to 20
-counter = 0
-while counter < 20:
-    if counter % 2 == 0:
-        print(counter)
-    counter += 1
+COUNTER = 0
+while COUNTER < 20:
+    if COUNTER % 2 == 1:
+        print(COUNTER)
+    COUNTER += 1
 
-''' DAY 12 '''
+# DAY 12
 
 
 def odd_or_even(number):
@@ -42,8 +40,7 @@ odd_or_even(3)
 def odd_or_even_sec(number):
     if number % 2 == 0:
         return "Even"
-    else:
-        return "Odd"
+    return "Odd"
 
 
 print(odd_or_even_sec(3))
@@ -59,7 +56,7 @@ def odd_or_even_sec_2(number):
     return ("Even", "Odd")[number % 2]
 
 
-''' DAY 13 '''
+# DAY 13
 
 
 def biggest_number_of_three(number1, number2, number3):
@@ -83,8 +80,7 @@ def largest_of_3(number1, number2, number3):
 
 
 print(largest_of_3(2, 15, 10))
-
-''' DAY 15 '''
+# DAY 15
 
 
 def factorial(number):
@@ -97,20 +93,18 @@ def factorial(number):
 
 factorial(5)
 
-''' DAY 16 '''
+# DAY 16
 
 
 def palindrom(string):
-    back_String = ""
-    x = len(string) - 1
-    while x >= 0:
-        back_String = back_String + string[x]
-        x -= 1
+    back_string = ""
+    string_len = len(string) - 1
+    while string_len >= 0:
+        back_string = back_string + string[string_len]
+        string_len -= 1
 
-    if back_String == string:
-        return True
-    else:
-        return False
+    if back_string == string:
+        return bool(True)
 
 
 print(palindrom("BooB"))
@@ -124,19 +118,18 @@ def palindrom_2(string):
 print(palindrom_2("Bob"))
 print(palindrom_2("Boby"))
 
-
-''' DAY 17 ''' 
+# Day 17
 
 # count the nuber of vowels in a String
 
 
 def vowels_counter(text):
-    counter = 0
+    counter_vowels = 0
     vowels = "a", "e", "i", "o", "u"
     for letters in text:
         if letters.lower() in vowels:
-            counter += 1
-    return counter
+            counter_vowels += 1
+    return counter_vowels
 
 
 # Pythonic Way
