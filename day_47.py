@@ -46,7 +46,9 @@ class RussischRollette():
                 result = self.shoot(player)
                 print(f"{player.name} schießt: {result} (Health: {player.health})")
                 if player.health <= 0:
+                    print("="*50)
                     print(f"{player.name} ist ausgeschieden!")
+                    print("="*50)
                     return
                 if self.stapel is None and Player.health != 0:
                     print("Alle Kugeln wurden abgefeuert. Das Spiel endet unentschieden.")
