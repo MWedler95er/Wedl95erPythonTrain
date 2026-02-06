@@ -1,6 +1,7 @@
 # Day 42
 
-class bank_account:
+
+class BankAccount:
     def __init__(self, account_number, balance):
         self.account_number = account_number
         self.balance = balance
@@ -19,7 +20,8 @@ class bank_account:
     def check_balance(self):
         print(f"Current balance: {self.balance}")
 
-my_account = bank_account("123456789", 1000)
+
+my_account = BankAccount("123456789", 1000)
 my_account.check_balance()
 my_account.deposit(500)
 my_account.withdraw(200)
