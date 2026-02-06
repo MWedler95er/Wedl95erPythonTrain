@@ -4,6 +4,7 @@ class Node:
         self.left = None
         self.right = None
 
+
 class HigherLowerGame:
     def __init__(self):
         self.root = Node()
@@ -35,6 +36,7 @@ class HigherLowerGame:
         print("\n=== All Guesses ===")
         for guess, result in self.guesses:
             print(f"Guess: {guess}, Result: {result}")
+
 
 game = HigherLowerGame()
 print(f"Game started. Root value: {game.root.value}")
