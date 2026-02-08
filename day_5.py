@@ -42,7 +42,7 @@ out = Day5()
 
 print(out.odd_or_even(int(input(" Odd number "))))
 print(out.odd_or_even(int(input(" Odd number "))) + "\n")
-out.age_kategories(int(input("Child age ")))
+out.age_kategories(int(input("kinder alter Angeben: ")))
 out.age_kategories(int(input("teenager age ")))
 out.age_kategories(int(input("adult age ")))
 out.age_kategories(int(input("senior age ")))
