@@ -39,13 +39,14 @@ class LinkedList:
             print(current.value)
             current = current.next
 
-    def suche_seite(start_node, seiten_name):
+    def suche_seite(self, start_node, seiten_name):
         current = start_node
         while current:
             if current.value == f"www.{seiten_name.lower()}.com":
                 return True
             current = current.next
         return False
+
 
 linked_list = LinkedList()
 linked_list.head = Node(GoogleSeiten().url)
@@ -55,7 +56,7 @@ linked_list.head.next.next.next = Node(WikipediaSeiten().url)
 linked_list.head.next.next.next.next = Node(GitHubSeiten().url)
 linked_list.head.next.next.next.next.next = Node("testString")
 
-linked_list.suche_seite(linked_list.head, "GitHub")
+print(linked_list.suche_seite(linked_list.head, "GitHub"))
 
 print("Linked List:")
 linked_list.print_list()
