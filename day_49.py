@@ -10,25 +10,25 @@ class HigherLowerGame:
         self.root = Node()
         self.guesses = []
 
-    def _guess_einfügen(self, aktueller_knoten: Node, guess: int):
+    def _guess_einfuegen(self, aktueller_knoten: Node, guess: int):
         if guess < aktueller_knoten.value:
             if aktueller_knoten.left is None:
                 aktueller_knoten.left = Node()
                 aktueller_knoten.left.value = guess
             else:
-                self._guess_einfügen(aktueller_knoten.left, guess)
+                self._guess_einfuegen(aktueller_knoten.left, guess)
             return "Lower"
-        elif guess > aktueller_knoten.value:
+        if guess > aktueller_knoten.value:
             if aktueller_knoten.right is None:
                 aktueller_knoten.right = Node()
                 aktueller_knoten.right.value = guess
             else:
-                self._guess_einfügen(aktueller_knoten.right, guess)
+                self._guess_einfuegen(aktueller_knoten.right, guess)
             return "Higher"
         return "Winner"
 
     def guess(self, guess):
-        result = self._guess_einfügen(self.root, guess)
+        result = self._guess_einfuegen(self.root, guess)
         self.guesses.append((guess, result))
         return result
 
