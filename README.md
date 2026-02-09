@@ -39,26 +39,26 @@ Start der Lektionen -> 29.01.2026
 -[X]-<Day 32 File operations: Read
 -[X]-<Day 33 File operations: Write
 -[X]-<Day 34 File operations: Append
--[]-<Day 35
--[]-<Day 36
--[]-<Day 37
--[]-<Day 38
--[]-<Day 39
--[]-<Day 40
--[]-<Day 41
--[]-<Day 42
--[]-<Day 43
--[]-<Day 44
--[]-<Day 45
--[]-<Day 46
--[]-<Day 47
--[]-<Day 48
--[]-<Day 49
--[]-<Day 50
--[]-<Day 51
--[]-<Day 52
--[]-<Day 53
--[]-<Day 54
+-[X]-<Day 35 File Operations
+-[X]-<Day 36 Handle Exceptions 1
+-[X]-<Day 37 Handle Exceptions 2
+-[X]-<Day 38 Costum Exceptions
+-[X]-<Day 39 Class Object
+-[X]-<Day 40 Class hirarchy
+-[X]-<Day 41 Inheritance
+-[X]-<Day 42 Class methods
+-[X]-<Day 43 Encapsulation
+-[X]-<Day 44 class definition
+-[X]-<Day 45 Polymorphism
+-[X]-<Day 46 Class Decorators
+-[X]-<Day 47 Stacks
+-[X]-<Day 48 Queues
+-[X]-<Day 49 Binary Search Tree
+-[X]-<Day 50 Linked List
+-[X]-<Day 51 Graphs
+-[X]-<Day 52 Hash Table
+-[X]-<Day 53 Set Operations
+-[X]-<Day 54 List Comprehensions
 -[]-<Day 55
 -[]-<Day 56
 -[]-<Day 57
