@@ -38,7 +38,7 @@ class Kartendeck:
     def austeilen(self):
         return self.karten_deck.pop(0) if self.karten_deck else None
 
-    def wert_berechnen(self, hand):
+    def wert_berechnen(self, hand) -> int:
         wert = 0
         asse = 0
         for karte, farbe in hand:  # pylint: disable=unused-variable
@@ -55,7 +55,7 @@ class Kartendeck:
             asse -= 1
         return wert
 
-    def bank_spielt(self, spieler_punkte):
+    def bank_spielt(self, spieler_punkte: int):
         self.bank_hand = [self.austeilen(), self.austeilen()]
 
         while True:
