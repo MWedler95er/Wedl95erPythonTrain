@@ -14,7 +14,7 @@ Start der Lektionen -> 29.01.2026
 -[X]-<Day 6 Functions and Code Reusability
 -[X]-<Day 7 List and Tuples
 -[X]-<Day 8 Sets and Dictionary
--[X]-<Day 9  Random number generator
+-[X]-<Day 9 Random number generator
 -[X]-<Day 10 for-Loop
 -[X]-<Day 11 While-Loop
 -[X]-<Day 12 Odd-Even
