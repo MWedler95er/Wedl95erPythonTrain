@@ -91,6 +91,17 @@ class RussischRollette:
                     print(f"{player.name} ist ausgeschieden!")
                     print("=" * 50)
 
+                # Nach jedem Schuss erneut prüfen, ob nur noch einer lebt
+                alive_players = [p for p in kwargs.values() if p.health > 0]
+                if len(alive_players) <= 1:
+                    if alive_players:
+                        print("\n" + "=" * 50)
+                        print(f"🎉 GEWINNER: {alive_players[0].name}!")
+                        print("=" * 50)
+                    else:
+                        print("\nNiemand hat überlebt. 😵")
+                    return
+
     def menu(self):
         entscheidungen = []
 
