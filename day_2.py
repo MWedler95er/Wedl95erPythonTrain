@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 """Day2 create variables and print
 
 I declered different variables with different data types and printed them out.

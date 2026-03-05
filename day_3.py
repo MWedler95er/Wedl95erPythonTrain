@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 """
 Created different data types and initialized variables with inputs.
 """

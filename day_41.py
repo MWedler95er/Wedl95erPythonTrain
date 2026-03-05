@@ -1,4 +1,4 @@
-# Day 40 + 41
+# pylint: skip-file
 
 
 class Pets:

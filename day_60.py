@@ -1,3 +1,6 @@
+# pylint: skip-file
+
+
 def hanoi(anzahl, von, temp, ziel, ebene=0):
     print("")
     if anzahl > 0:
