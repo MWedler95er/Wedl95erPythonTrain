@@ -6,4 +6,5 @@ def fib(n):
 
     return a
 
+
 print(fib(10))
