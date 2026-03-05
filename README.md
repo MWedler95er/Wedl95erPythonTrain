@@ -59,15 +59,15 @@ Start der Lektionen -> 29.01.2026
 -[X]-<Day 52 Hash Table
 -[X]-<Day 53 Set Operations
 -[X]-<Day 54 List Comprehensions
--[]-<Day 55
--[]-<Day 56
--[]-<Day 57
--[]-<Day 58
--[]-<Day 59
--[]-<Day 60
--[]-<Day 61
--[]-<Day 62
--[]-<Day 63
+-[X]-<Day 55 Iterable class
+-[X]-<Day 56 Sorting algorithms
+-[X]-<Day 57 Search algorithms
+-[X]-<Day 58 Depth-first search (DFS) algorithm
+-[X]-<Day 59 Breadth-first search (BFS) algorithm
+-[X]-<Day 60 Tower of Hanoi
+-[X]-<Day 61 Fibunacci
+-[X]-<Day 62 FastAPI
+-[X]-<Day 63 Simple CRUD application
 -[]-<Day 64
 -[]-<Day 65
 -[]-<Day 66
