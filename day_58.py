@@ -4,14 +4,15 @@ class Node:
         self.left = None
         self.right = None
 
+
 def dfs_surch(knot):
     if knot is None:
         return
-    
+
     print(f"Ich bin bei Knoten: {knot.value}")
-    
+
     dfs_surch(knot.left)
-    
+
     dfs_surch(knot.right)
 
 
@@ -21,6 +22,3 @@ root.right = Node(3)
 root.left.left = Node(4)
 
 dfs_surch(root)
-
-
-
