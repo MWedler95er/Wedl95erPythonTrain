@@ -1,0 +1,11 @@
+kunden_id,name,alter,stadt,land,umsatz_2023,umsatz_2024,newsletter
+1,Anna,23,Berlin,DE,1200.50,1500.75,True
+2,Bob,35,München,DE,2300.00,2100.00,False
+3,Chris,29,Hamburg,DE,800.00,950.00,True
+4,Diana,42,Zürich,CH,3200.00,NaN,True
+5,Emre,31,Wien,AT,NaN,1800.00,False
+6,Fiona,27,Berlin,DE,1500.00,1600.00,True
+7,George,50,London,UK,4200.00,3900.00,False
+8,Hanna,38,Berlin,DE,2600.00,2700.00,True
+9,Ivan,45,Prag,CZ,1900.00,NaN,False
+10,Julia,33,München,DE,2100.00,2200.00,True
