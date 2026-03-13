@@ -38,12 +38,12 @@ print("Eine sortierte liste bezgen auf dlc's")
 print(sorted_csv[["name", "dlc_count"]].head(10))
 print("")
 
-# 4.
 
-print("")
+# 4.
 grupp_pub = _csv.groupby("publishers")["name"].count()
 grupp_pub = grupp_pub.sort_values(ascending=False)
 print(grupp_pub.head(10))
+print("")
 
 
 # 5. was hat sie höchste average_playtime_2weeks.
