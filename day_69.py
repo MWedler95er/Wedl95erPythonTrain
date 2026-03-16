@@ -51,5 +51,3 @@ if "price" in df.columns and "average_playtime_forever" in df.columns:
     print(f"Medianpreis im Datensatz: {price_median:.2f}")
     print(f"Billige Spiele - Mittelwert Spielzeit:  {cheap.mean():.2f}")
     print(f"Teure Spiele   - Mittelwert Spielzeit:  {expensive.mean():.2f}")
-
-    

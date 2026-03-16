@@ -96,9 +96,11 @@ print(f"Geschätztes Modell: play_forever ≈ {a:.4f} * price + {b:.4f}")
 print("Sum of squared residuals:", residuals)
 
 # Beispielvorhersage: erwartete Spielzeit für ein Spiel mit Preis 10
-example_price = 10.0
-predicted_play = a * example_price + b
-print(f"Erwartete Gesamtspielzeit für Preis {example_price}: {predicted_play:.2f} (Stunden?)")
+EXAMPLE_PRICE = 10.0
+predicted_play = a * EXAMPLE_PRICE + b
+print(
+    f"Erwartete Gesamtspielzeit für Preis {EXAMPLE_PRICE}: {predicted_play:.2f} (Stunden?)"
+)
 
 # --- 7) Mehrdimensionale Arrays ---
 print("\n=== Mehrdimensionale Arrays ===")
