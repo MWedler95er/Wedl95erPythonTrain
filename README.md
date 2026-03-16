@@ -68,16 +68,16 @@ Start der Lektionen -> 29.01.2026
 -[X]-<Day 61 Fibunacci
 -[X]-<Day 62 FastAPI
 -[X]-<Day 63 Simple CRUD application
--[]-<Day 64
--[]-<Day 65
--[]-<Day 66
--[]-<Day 67
--[]-<Day 68
--[]-<Day 69
--[]-<Day 70
--[]-<Day 71
--[]-<Day 72
--[]-<Day 73
+-[X]-<Day 64 User authentication
+-[X]-<Day 65 RESTful API framework
+-[X]-<Day 66 External API call
+-[X]-<Day 67 Pandas
+-[X]-<Day 68 Matplotlib
+-[X]-<Day 69 Statical analysis
+-[X]-<Day 70 numerical Computing
+-[X]-<Day 71 Interactive data visualizations
+-[X]-<Day 72 machine lerning model
+-[X]-<Day 73 Neural network
 -[]-<Day 74
 -[]-<Day 75
 -[]-<Day 76
