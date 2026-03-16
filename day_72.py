@@ -21,7 +21,7 @@ intercept = model.intercept_  # Achsenabschnitt
 print(f"Gelerntes Modell: y = {slope:.2f} * x + {intercept:.2f}")
 
 # Vorhersage: Wie viele Punkte bei 7 Lernstunden?
-x_new = np.array([[]])
+x_new = np.array([[7]])
 y_pred = model.predict(x_new)
 
 print(f"Vorhersage für 7 Stunden Lernen: {y_pred[0]:.2f} Punkte")
