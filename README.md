@@ -78,15 +78,15 @@ Start der Lektionen -> 29.01.2026
 -[X]-<Day 71 Interactive data visualizations
 -[X]-<Day 72 machine lerning model
 -[X]-<Day 73 Neural network
--[]-<Day 74
--[]-<Day 75
--[]-<Day 76
--[]-<Day 77
--[]-<Day 78
--[]-<Day 79
--[]-<Day 80
--[]-<Day 81
--[]-<Day 82
+-[X]-<Day 74 Neutral language processing
+-[X]-<Day 75 Recommendation system
+-[X]-<Day 76 chatbot
+-[X]-<Day 77 automation script
+-[X]-<Day 78 Download Files
+-[X]-<Day 79 Automate emails
+-[X]-<Day 80 Web scraping
+-[X]-<Day 81 Tasks Schedule
+-[X]-<Day 82 Implement Tic-Tac-Toe
 -[]-<Day 83
 -[]-<Day 84
 -[]-<Day 85
