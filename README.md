@@ -3,8 +3,31 @@
 Seite an der ich mich Orientiere:
 https://www.100daysofcode.io/learn/python
 
-
 Start der Lektionen -> 29.01.2026
+
+---
+
+## Ordnerstruktur
+
+| Ordner | Inhalt |
+|---|---|
+| `Basics/` | Day 1–6, 10–13, 15–17 |
+| `Data_Structures/` | Day 7, 8, 18, 23, 29–31, 53, 54 |
+| `File_Operations/` | Day 32–35, 63 |
+| `Exception_Handling/` | Day 36–38 |
+| `OOP/` | Day 39–47 |
+| `Algorithms/` | Day 48–52, 56–61, 89 |
+| `Data_Science/` | Day 67–75, 91 + CSV-Dateien |
+| `Web_And_Automation/` | Day 77–81, 83, 87, chat_client, chat_server |
+| `AI_NLP/` | Day 76 |
+| `Games/` | Day 55, 82 |
+| `Concurrency_And_Performance/` | Day 90, 93 |
+| `Design_Patterns/` | Day 92, 94 |
+| `day_85-rpg/` | RPG Projekt (Day 85) |
+
+---
+
+## Fortschritt
 
 -[X]-<Day 1 Hallo, World!
 -[X]-<Day 2 Varables
@@ -87,18 +110,18 @@ Start der Lektionen -> 29.01.2026
 -[X]-<Day 80 Web scraping
 -[X]-<Day 81 Tasks Schedule
 -[X]-<Day 82 Implement Tic-Tac-Toe
--[]-<Day 83
--[]-<Day 84
--[]-<Day 85
+-[X]-<Day 83 CLI Tool (argparse)
+-[]-<Day 84 GUI (Tkinter) — skip
+-[X]-<Day 85 RPG Projekt
 -[]-<Day 86
--[]-<Day 87
+-[X]-<Day 87 Web Scraper (Links)
 -[]-<Day 88
--[]-<Day 89
--[]-<Day 90
--[]-<Day 91
--[]-<Day 92
--[]-<Day 93
--[]-<Day 94
+-[X]-<Day 89 Mandelbrot (ASCII)
+-[X]-<Day 90 Concurrency & Parallelism
+-[X]-<Day 91 Data Science (Cleaning & Feature Engineering)
+-[X]-<Day 92 Design Patterns (Singleton, Decorator, Observer, Factory, Strategy)
+-[X]-<Day 93 Code Optimization (Profiling, Generator, Set vs List)
+-[X]-<Day 94 Decorators & Descriptors
 -[]-<Day 95
 -[]-<Day 96
 -[]-<Day 97

@@ -42,10 +42,10 @@ for thing in TEST_LIST:
     print(thing)
 print()
 
-COUNT = 0
-while COUNT < len(TEST_LIST):
-    print(TEST_LIST[COUNT])
-    COUNT += 1
+count = 0
+while count < len(TEST_LIST):
+    print(TEST_LIST[count])
+    count += 1
 print()
 
 # ^^ with operations
@@ -61,50 +61,50 @@ for thing in TEST_LIST:
 print()
 
 
-COUNT = 0
-while COUNT < len(TEST_LIST):
-    COUNT += 1
-    if COUNT % 2 == 0:
+count = 0
+while count < len(TEST_LIST):
+    count += 1
+    if count % 2 == 0:
         print("even count")
     else:
-        print(TEST_LIST[COUNT - 1])
+        print(TEST_LIST[count - 1])
 print()
 
 #
 #  Tuples
 #
 # Create Tuple
-TEST_TUPLES = ("tuple", True, 240, "branching", 3 + 4)
-print(TEST_TUPLES)
+test_tuples = ("tuple", True, 240, "branching", 3 + 4)
+print(test_tuples)
 
 # access, modify and slice the Tuple
-print(TEST_TUPLES[1])
-print(TEST_TUPLES[4])
-print(TEST_TUPLES[-2])
-print(TEST_TUPLES[3:-1])
-print(TEST_TUPLES[:-1])
+print(test_tuples[1])
+print(test_tuples[4])
+print(test_tuples[-2])
+print(test_tuples[3:-1])
+print(test_tuples[:-1])
 
 # Add in too Tuple
-TEST_TUPLES += ("Git", "Python")
-print(TEST_TUPLES)
+test_tuples += ("Git", "Python")
+print(test_tuples)
 # Multiply outcome
-print(TEST_TUPLES * 3)
-print(TEST_TUPLES[2] * 3)  # when Tuple[Index] is a Number then they do Math
+print(test_tuples * 3)
+print(test_tuples[2] * 3)  # when Tuple[Index] is a Number then they do Math
 print(
-    TEST_TUPLES[0] * 3
+    test_tuples[0] * 3
 )  # concatenation when Tuple[Index] is a String -> Without space between
 # give index back
-print(TEST_TUPLES.index("tuple"))
-print(TEST_TUPLES.index(7))
+print(test_tuples.index("tuple"))
+print(test_tuples.index(7))
 # count summ
-TEST_TUPLES += ("2", "2", "2", "2", "2")
-print(TEST_TUPLES.count("2"))
+test_tuples += ("2", "2", "2", "2", "2")
+print(test_tuples.count("2"))
 # in opertion -> outcome True/False
-print("Tuple" in TEST_TUPLES)  # outcome False
-print("tuple" in TEST_TUPLES)  # outcome True
-print(7 in TEST_TUPLES)  # outcome True
-print(3 + 4 in TEST_TUPLES)  # outcome True
-print(480 / 2 in TEST_TUPLES)  # outcome True
+print("Tuple" in test_tuples)  # outcome False
+print("tuple" in test_tuples)  # outcome True
+print(7 in test_tuples)  # outcome True
+print(3 + 4 in test_tuples)  # outcome True
+print(480 / 2 in test_tuples)  # outcome True
 
 
 # convert to a List // First Try without Google the "right Way"
@@ -116,15 +116,15 @@ print(480 / 2 in TEST_TUPLES)  # outcome True
 
 converted_tuple_list = []
 i = 0
-for each_tuple_thing in TEST_TUPLES:
-    converted_tuple_list.append(TEST_TUPLES[i])
+for each_tuple_thing in test_tuples:
+    converted_tuple_list.append(test_tuples[i])
     i += 1
 print(converted_tuple_list)
 
 converted_tuple_list.clear()  # delete all from the list
 i = 0
-while i < len(TEST_TUPLES):
-    converted_tuple_list.append(TEST_TUPLES[i])
+while i < len(test_tuples):
+    converted_tuple_list.append(test_tuples[i])
     i += 1
 print(converted_tuple_list)
 
@@ -132,16 +132,16 @@ print(converted_tuple_list)
 converted_tuple_list.clear()  # delete all from the list
 # Googel for the "Right way" how i convert a Tuple in a List
 
-converted_tuple_list = list(TEST_TUPLES)  # Viel sauberer! # wow simple
+converted_tuple_list = list(test_tuples)  # Viel sauberer! # wow simple
 print(converted_tuple_list)
 
 
 # testing some stuff
-converted_tuple_list = ["Two" if x == "2" else x for x in TEST_TUPLES]  # wow simple
+converted_tuple_list = ["Two" if x == "2" else x for x in test_tuples]  # wow simple
 print(converted_tuple_list)
 
 converted_tuple_list.clear()  # delete all from the list
-for x in TEST_TUPLES:
+for x in test_tuples:
     if x == "2":
         converted_tuple_list.append("Dos")
     else:

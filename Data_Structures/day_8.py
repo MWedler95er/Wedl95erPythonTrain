@@ -171,13 +171,13 @@ for key, value in TEST_DICT.items():
     print(key, ":", value)
 
 # copy a Dictionary
-TEST_DICT_COPY = TEST_DICT.copy()
+test_dict_copy = TEST_DICT.copy()
 print(TEST_DICT)
-print(TEST_DICT_COPY)
+print(test_dict_copy)
 
-del TEST_DICT_COPY  # delete all key:values ind test_dict_copy
-TEST_DICT_COPY = dict(TEST_DICT)
-print(TEST_DICT_COPY)
+del test_dict_copy  # delete all key:values ind test_dict_copy
+test_dict_copy = dict(TEST_DICT)
+print(test_dict_copy)
 
 # nested dictonaries
 

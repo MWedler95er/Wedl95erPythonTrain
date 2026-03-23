@@ -1,14 +1,20 @@
+"""Day 82 — Tic-Tac-Toe"""
+
 import dataclasses
 
 
 @dataclasses.dataclass
 class Player:
+    """Repräsentiert einen Spieler mit Name, Symbol und Zugzähler."""
+
     name: str
     symbol: str  # "X" oder "O"
     moves: int = 0
 
 
-class TicTacToe:
+class TicTacToe:  # pylint: disable=too-few-public-methods
+    """Verwaltet Spielfeld, Spieler und Spielablauf für Tic-Tac-Toe."""
+
     FIELD_TEMPLATE = {
         "L-T": " ",
         "M-T": " ",
