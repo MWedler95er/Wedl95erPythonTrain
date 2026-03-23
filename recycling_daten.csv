@@ -1,0 +1,21 @@
+kunden_id,name,ort,material,menge_kg,preis_pro_kg,datum,status
+1,Weber GmbH,München,Aluminium,120.5,1.80,2024-01-15,abgeschlossen
+2,Müller AG,Berlin,Kupfer,45.0,5.20,2024-01-17,abgeschlossen
+3,Schmidt KG,Hamburg,,88.0,2.10,2024-01-18,abgeschlossen
+4,Fischer & Co,München,Eisen,200.0,,2024-01-20,offen
+5,Weber GmbH,München,Aluminium,95.3,1.80,2024-01-22,abgeschlossen
+6,Bauer GmbH,Berlin,Kupfer,30.0,5.20,2024-01-25,abgeschlossen
+7,Hofmann AG,Hamburg,Aluminium,-10.0,1.80,2024-01-28,fehler
+8,Koch GmbH,München,Messing,60.0,3.50,2024-02-01,abgeschlossen
+9,Müller AG,Berlin,Kupfer,45.0,5.20,2024-01-17,abgeschlossen
+10,Richter KG,Stuttgart,Eisen,310.0,0.95,2024-02-05,abgeschlossen
+11,Weber GmbH,München,Aluminium,,,2024-02-08,offen
+12,Krause AG,Frankfurt,Messing,75.5,3.50,2024-02-10,abgeschlossen
+13,Schäfer GmbH,Berlin,Eisen,180.0,0.95,2024-02-12,abgeschlossen
+14,Fischer & Co,München,Kupfer,55.0,5.20,2024-02-15,abgeschlossen
+15,Wolf GmbH,Hamburg,Aluminium,140.0,1.80,2024-02-18,abgeschlossen
+16,Neumann KG,Stuttgart,Messing,90.0,3.50,2024-02-20,abgeschlossen
+17,Zimmermann AG,Frankfurt,Eisen,250.0,0.95,2024-02-22,abgeschlossen
+18,Becker GmbH,München,Kupfer,,5.20,2024-02-25,offen
+19,Hofmann AG,Hamburg,Aluminium,110.0,1.80,2024-03-01,abgeschlossen
+20,Koch GmbH,München,Messing,60.0,3.50,2024-02-01,abgeschlossen
